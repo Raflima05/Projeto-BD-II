@@ -1,0 +1,132 @@
+body{
+	background-image: url("https://i.pinimg.com/564x/31/c0/a5/31c0a54962baee27f305fd9956a01795.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+div#maior{
+	background-color: rgba(255,255,255, 0.1);
+	width: 1300px;
+	height: 1500px;
+	margin-left: 15px;
+	margin-top: -7px;
+
+}
+#divBusca{
+	border-bottom: 1px solid;
+	height: 350px;
+}
+form#caixa{
+	position: relative;
+	margin-top: -150px;
+	margin-left: 600px;
+}
+input.caixa2{
+	width: 500px;
+	height: 30px;
+}
+input#butao{
+	height: 35px;
+}
+ul{
+	list-style: none;
+}
+li#tela{
+	font-family: 'Oswald', sans-serif;
+	color: orange;
+	font-size: 25px;
+	margin-left: 10px;
+	float: left;
+}
+li#tela2{
+	font-family: 'Oswald', sans-serif;
+	color: orange;
+	font-size: 25px;
+	margin-left: 10px;
+	float: left;
+}
+div#login{
+	position: absolute;
+	margin-left: 900px;
+}
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+h2{
+	color: orange;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+#destaque{
+	width: 50%;
+	height: 950px;
+	border-right: 1px solid;
+	overflow: auto;
+}
+section{
+	position: relative;
+	margin-top: 40px;
+}
+#direita{
+	margin-top: -950px;
+	height: 950px;
+	width: 50%;
+	float: right;
+	overflow: auto;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-family: 'Nunito', sans-serif;
+}
+.detalhes{
+	position: absolute;
+	border:1px groove;
+	margin-left: -520px;
+	margin-top: 40px;
+}
+li a button{
+	width: 90px;
+	height: 30px;
+}
+footer div{
+	border-top: 1px solid;
+	text-align: center;
+}
+.descricao{
+	width: 350px;
+	position: absolute;
+	margin-left: 210px;
+	margin-top: -290px;
+}
+aside li {
+	position: relative;
+	margin-top: 0px;
+}
+p{
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+#efeitovoltar:hover{
+	color: white;
+}
+form#cadastro{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	margin-left: 42%;
+}
+.tamanho{
+	width: 200px;
+	height: 20px;
+	border-radius: 5px;
+}
+div#comprar{
+	margin-left: 20%;
+}
+div#poltrona{
+	background-color: grey;
+	width: 360px;
+	height: 300px;
+}
