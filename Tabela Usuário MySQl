@@ -1,0 +1,14 @@
+create schema cadastro;
+use cadastro;
+
+create table usuario(
+id int(11) not null auto_increment primary key,
+nome varchar(45),
+idade int(3),
+cidade varchar(45),
+email varchar(60),
+senha varchar(45)
+);
+describe usuario;
+
+select*from usuario;
