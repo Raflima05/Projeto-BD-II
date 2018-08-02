@@ -1,0 +1,19 @@
+<?php
+	include_once("conection.php");
+	$nome = $_POST["nome"];
+	$idade = $_POST["idade"];
+	$cidade = $_POST["cidade"];
+	$email = $_POST["email"];
+	$senha = md5($_POST["senha"]);
+
+	$sql = "INSERT INTO `usuario`(nome,idade,cidade,email,senha) VALUES('$nome','$idade','$cidade','$email','$senha')";
+	$resultado = mysqli_query($con,$sql);
+	if (!$resultado) {
+		die("erro!!!").mysqli_error();
+	}else{
+		echo "cadastro concluido";
+	}
+
+	
+
+?>
