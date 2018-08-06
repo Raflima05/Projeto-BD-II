@@ -8,54 +8,49 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 </head>
 <body>
-	<div>
-		<div id="maior" style="height: 1200px;">
-			<div id="divBusca">
-				<div id="login">
-					<ul>
-						<a href=""><li id="tela" class="grow" style="padding-right: 8px;">cadastrar</li></a>
-						<a href=""><li id="tela2" class="grow">login</li></a>
-					</ul>
-				</div>
-				<img style="opacity: none;" src="https://dialogospoliticos.files.wordpress.com/2015/07/b4333-cinema.png?w=1400">
-					<form id="caixa">
+	<div id="maior">
+		<div id="divBusca">
+			<div id="login">
+				<ul>
+					<a href="cadastro.html"><li id="tela" class="grow" style="padding-right: 8px;">cadastrar</li></a>
+					<a href="cadastro.html"><li id="tela2" class="grow">login</li></a>
+				</ul>
+			</div>
+			<img style="opacity: none;" src="https://dialogospoliticos.files.wordpress.com/2015/07/b4333-cinema.png?w=1400">
+  			<form id="caixa">
   						<input class="caixa2" type="text" name="buscar" placeholder="buscar...">
   						<input id="butao" type="submit" name="" value="buscar">
   					</form>
-			</div>
-			<div>
-				<a href="telainicial.html"><h2 id="efeitovoltar">voltar</h2></a>
-					<form id="cadastro">
-						e-mail:<br><input class="tamanho" type="email" name="email"><br>
-						senha:<br><input class="tamanho" type="password" name="senha"><br>
-						<br><input class="tamanho" type="submit" name="" value="logar">
-					</form>
-					<h2>cadastre-se</h2>
-					<form id="cadastro" method = "POST" action = "armazenamento.php">
-						nome:<br><input class="tamanho" type="text" name="nome"><br>
-						nascimento:<br><input class="tamanho" type="date" name="idade"><br>
-						cidade:<br><input class="tamanho" type="text" name="cidade"><br>
-						email:<br><input class="tamanho" type="email" name="email"><br>
-						senha:<br><input class="tamanho" type="password" name="senha"><br><br>
-						<input class="tamanho" type="submit" name="" value="cadastrar">
+		</div>
+		<div id="comprar">
+			<h2 style="text-align: left;">selecionar cinema desejado</h2>
+			<select>
+				<option>selecione o cinema</option><br>
+				<option>moviecom(Pátio bélem) </option>
+				<option>cinepólis(Park shopping)</option>
+				<option>cinepólis(Boulevard)</option>
+			</select>
+			<h2 style="text-align: left;">selecione o dia e hora da sessão desejada</h2>
+			<form style="font-family: 'Oswald', sans-serif;color: orange">
+				dia:<input type="date" name=""> hora:
+			</form>
+			<select style="margin-left: 15%;margin-top: -22px;position: absolute;">
+				<option>DUBLADO 14:00</option>
+				<option>DUBLADO 16:30</option>
+				<OPTION>LEGENDADO 17:30</OPTION>
+			</select><br><br>
+			<h2 style="text-align: left;">selecione a poltrona</h2>
+				<div id="poltrona">
+					
 
 
-					</form>
-			</div>	
+				</div>
 		</div>
 		<footer>
 			<div>
 				<img style="margin-left: 0%;width: 100px;margin-top: 10px;" src="https://fhox.com.br/wp-content/uploads/sites/4/2017/10/instagram-vs-facebook-menos-fios.png">
 			</div>
-		</footer>				
-
-
-
-
-
-
-
-
+		</footer>		
 	</div>
 </body>
 </html>
